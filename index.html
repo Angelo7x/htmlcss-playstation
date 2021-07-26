@@ -1,25 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="css/style.css">
-        <title>Playstation</title>
-    </head>
-    <body>
-        <!-- header -->
-        <header>
-            <nav>
-                <div class="nav-top">
-                    <img class="logo-sony" src="img/sony_logo.svg" alt="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Playstation</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <nav>
+            <div class="nav-top">
+                <img class="logo-sony" src="img/sony_logo.svg" alt="">
+            </div>
+            <div class="nav-bottom">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="#"><img src="img/play_logo.svg" alt=""></a> 
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Giochi
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Hardware
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Servizi
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Novità
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Fai acquisti
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Supporto
+                                </a>
+                            </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Dropdown
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <button class="btn btn-accedi my-2 my-sm-0" type="submit">Accedi</button>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">
+                                        <img class="lens" src="img/lens.svg" alt="Lente">
+                                    </a>
+                                </li>
+                            </ul>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+        </nav>
+    </header>
+    <!-- Inizio main -->
+    <main>
+        <!-- hero -->
+        <section id="hero" class="hero">
+            <div class="hero-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-4">
+                            <img class="hero-img mb-4" src="img/returnal-hero-banner-logo.png" alt="returnal">
+                            <h2 class="mb-4">Rompi il cerchio</h2>
+							<p class="mb-4">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5</p>
+							<a href="#" class="btn btn-orange">Acquista ora</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="nav-bottom">
-                    
+            </div>
+            <div class="hero-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 col-sm-4 col-lg-2">
+                            <div class="banners banners-active">
+                                <img class="banner-img" src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-4 col-lg-2">
+                            <div class="banners">
+                                <img class="banner-img" src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-4 col-lg-2">
+                            <div class="banners">
+                                <img class="banner-img" src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-4 col-lg-2">
+                            <div class="banners">
+                                <img class="banner-img" src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-4 col-lg-2">
+                            <div class="banners">
+                                <img class="banner-img" src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-4 col-lg-2">
+                            <div class="banners">
+                                <img class="banner-img" src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </nav>
-        </header>
-    </body>
+            </div>
+        </section>
+    </main>
+</body>
+
 </html>

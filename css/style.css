@@ -9,3 +9,59 @@
     padding-bottom: 5px;
     padding-right: 8px;
 }
+
+.navbar-light .navbar-nav .nav-link {
+    color: black
+}
+
+.btn-accedi {
+    color: white;
+    background-color: #363636;
+    padding: 15px, 20px;
+    border-radius: 20px;
+    margin: 0px 20px;
+}
+
+.lens {
+    width: 40px;
+}
+
+/* HERO */
+
+.hero-top {
+    background-image: url(../img/jumbo-bg.png);
+    color: white;
+    padding: 250px 0 50px 0;
+    background-size: cover;
+    background-position: top center;
+}
+
+.hero-img {
+    height: 40px;
+}
+
+.btn-orange {
+    background-color: #cd3d0f;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 15px;
+}
+
+.banners {
+    margin-top: 24px;
+	padding: 2px;
+	border-radius: 20px;
+}
+
+.banner-img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.banners-active {
+    box-shadow: 0px 0px 0px 2px #0072ce;
+}
+
+.hero-bottom {
+    padding-bottom: 30px;
+}
