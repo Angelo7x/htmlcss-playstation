@@ -63,5 +63,84 @@
 }
 
 .hero-bottom {
-    padding-bottom: 30px;
+    padding-bottom: 70px;
+}
+
+/* section-console */
+
+.text-center p:first-child {
+    color: #2284d4;
+}
+
+.text-grey {
+    color: #727272;
+}
+
+.btn-blue {
+    background-color: #2d64e6;
+    color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding:5px 10px;
+}
+
+.playstation-5-thumb{
+    width: 100%;
+}
+
+.text-console {
+    vertical-align: middle;
+    margin-top: 200px;
+}
+
+.img-cons {
+    width: 100%;
+}
+
+.opac {
+    opacity: 0.7;
+}
+
+.img-cons {
+    padding-bottom: 20px;
+}
+
+.opac:hover {
+    opacity: 1;
+}
+
+.console-bottom {
+    padding-top: 50px;
+}
+
+/* hero2 */
+
+.hero2-top {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    color: white;
+    padding: 250px 0 50px 0;
+    background-size: cover;
+    background-position: top center;
+    margin-top:70px ;
+}
+
+.hero2-img {
+    height: 200px;
+}
+
+/* Nuove uscite */
+
+.new-games {
+    background-color: #1f1f1f;
+    color: white;
+    padding-bottom:40px;
+}
+.ng-img {
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px 0;
+}
+
+.new-games h3 {
+    padding: 10px 0;
 }
